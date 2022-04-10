@@ -1,13 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 50px;
+
+  background: #fafafa;
+  color: #424242;
+
+  font-family: "Montserrat", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::selection {
+  background-color: #bf360c;
+  color: beige;
+}
+
+/* Info */
+.MuiCard-root {
+  background-color: #fafafa !important;
+}
+
+/* SVG */
+svg {
+  display: flex;
+  margin: 0 auto;
+
+  border-radius: 6px;
+  background-color: #fbf3e7;
+}
+
+/* MARKS */
+.marker-line {
+  stroke: #bf360c;
+  stroke-dasharray: 5;
+}
+
+.marks path {
+  stroke-linejoin: round; /* the shape at the corners of stroked paths */
+  stroke-linecap: round; /*  shape at the end of stroked open subpaths */
+  transition: 0.5s;
+}
+
+.marks circle {
+  fill: #ffb74d;
+  transition: 0.5s;
+}
+
+circle title {
+  font-size: 2rem;
+}
+
+.circleHovered {
+  transition: 0.25s;
+  fill: #bf360c !important;
+}
+
+/* TICKS */
+
+.tick line {
+  stroke: #c0c0bb;
+  stroke-dasharray: 2.8;
+}
+
+.tick text {
+  fill: #bf360c;
+}
+
+.axis-label {
+  font-size: 1.5em;
+  fill: #bf360c;
+}
+
+/* radio buttons */
+.MuiFormControl-root {
+  background: #fafafa;
+}
+
+#demo-controlled-radio-buttons-group {
+  margin-top: 30px;
+  color: #bf360c;
+  color: #37474f;
+}
+
+#radio-group .MuiFormControlLabel-root {
+  margin-left: 30px;
+}
+
+#radio-group .MuiSvgIcon-root {
+  background: #fafafa;
 }
