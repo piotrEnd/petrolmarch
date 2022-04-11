@@ -1,4 +1,4 @@
-# petrolmarch
+# Petrol Prices Increase (March 2022)
 
 Retail gasoline and diesel prices soared to record highs in March 2022. Visualization shows the changes as clear as day. There is a reference line standing for the prices on the 1st of March (2022). Dots represent the following days. Hovering over them reveals how the price has risen by percentage since the reference date.
 
