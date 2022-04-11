@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/petrolmarch/static/css/main.ebbba2ba.css",
+    "main.js": "/petrolmarch/static/js/main.94fcbcbc.js",
+    "static/js/787.53137cc5.chunk.js": "/petrolmarch/static/js/787.53137cc5.chunk.js",
+    "index.html": "/petrolmarch/index.html",
+    "main.ebbba2ba.css.map": "/petrolmarch/static/css/main.ebbba2ba.css.map",
+    "main.94fcbcbc.js.map": "/petrolmarch/static/js/main.94fcbcbc.js.map",
+    "787.53137cc5.chunk.js.map": "/petrolmarch/static/js/787.53137cc5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebbba2ba.css",
+    "static/js/main.94fcbcbc.js"
+  ]
+}
