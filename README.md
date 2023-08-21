@@ -1,7 +1,23 @@
-# Petrol Prices Increase (March 2022)
+## Petrol Prices Increase (March 2022)
+----
 
-Retail gasoline and diesel prices soared to record highs in March 2022. Visualization shows the changes as clear as day. There is a reference line standing for the prices on the 1st of March (2022). Dots represent the following days. Hovering over them reveals how the price has risen by percentage since the reference date.
+**Information architecture:**
 
-One-pager design because it's a visualisation. Short description at the top. Explantation how to use the graph reduced into one sentence. Radio buttons to adjust the plot. The data relates to an exemplary petrol station located in Germany, 86480 Krumbach. The values has been fetched from [Tankerkönig API](https://creativecommons.tankerkoenig.de) and manually extracted into separate csv-gist.
+Retail gasoline and diesel prices soared to record highs in March 2022. The visualisation clearly illustrates these changes on a line graph, featuring a reference line representing the prices on the 1st of March. Dots depict the following days. Hovering over dots reveals how the price has risen by percentage since the reference date. Line graphs are commonly used to show the progression of data (in this case the price) over time.
 
-Technology stack: D3 | React | Material-UI
+**Design:**
+
+The visualisation is designed to fit on a single page, featuring only essential elements: a brief description explaining how to use the graph and radio buttons at the bottom for plot adjustments. The data used pertains to an exemplary petrol station in Germany (located at 86480 Krumbach) and was obtained from the [Tankerkönig API](https://creativecommons.tankerkoenig.de), subsequently extracted into separate csv-gist files.
+
+
+Please >> [visit here](https://petrolmarch.netlify.app/) <<
+
+
+| technology stack  |
+| --- 		       |
+| --- 		       |
+| D3 |
+| React |
+| Material-UI 	    |
+
+> *April, 2022*
